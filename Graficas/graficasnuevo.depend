@@ -1,0 +1,95 @@
+# depslib dependency file v1.0
+1556913475 source:c:\users\luis\desktop\graficas - copy\graficasnuevo\clases.cpp
+	<iostream>
+	<cstdlib>
+
+1556913495 source:c:\users\luis\desktop\graficas - copy\graficasnuevo\funciones_lista.cpp
+	<iostream>
+	<cstdlib>
+	"Clases.cpp"
+
+1556913475 c:\users\luis\desktop\graficas - copy\graficasnuevo\clases.cpp
+	<iostream>
+	<cstdlib>
+
+1556913505 source:c:\users\luis\desktop\graficas - copy\graficasnuevo\funciones_lista_arcos.cpp
+	<iostream>
+	<cstdlib>
+	"Clases.cpp"
+
+1556913514 source:c:\users\luis\desktop\graficas - copy\graficasnuevo\funciones_lista_nodos.cpp
+	<iostream>
+	<cstdlib>
+	"Clases.cpp"
+
+1556913525 source:c:\users\luis\desktop\graficas - copy\graficasnuevo\main.cpp
+	<iostream>
+	<cstdlib>
+	"Clases.cpp"
+
+1556913593 source:c:\users\luis\desktop\graficas\graficasnuevo\funciones_grafica.cpp
+	<iostream>
+	<cstdlib>
+	"Clases.cpp"
+
+1557194846 c:\users\luis\desktop\graficas\graficasnuevo\clases.cpp
+	<iostream>
+	<cstdlib>
+
+1556913495 source:c:\users\luis\desktop\graficas\graficasnuevo\funciones_lista.cpp
+	<iostream>
+	<cstdlib>
+	"Clases.cpp"
+
+1556913505 source:c:\users\luis\desktop\graficas\graficasnuevo\funciones_lista_arcos.cpp
+	<iostream>
+	<cstdlib>
+	"Clases.cpp"
+
+1556913514 source:c:\users\luis\desktop\graficas\graficasnuevo\funciones_lista_nodos.cpp
+	<iostream>
+	<cstdlib>
+	"Clases.cpp"
+
+1556913525 source:c:\users\luis\desktop\graficas\graficasnuevo\main.cpp
+	<iostream>
+	<cstdlib>
+	"Clases.cpp"
+
+1557194846 source:c:\users\luis\desktop\graficas\graficasnuevo\clases.cpp
+	<iostream>
+	<cstdlib>
+
+1556913593 source:c:\users\luis\desktop\github\graficas\funciones_grafica.cpp
+	<iostream>
+	<cstdlib>
+	"Clases.cpp"
+
+1557959313 c:\users\luis\desktop\github\graficas\clases.cpp
+	<iostream>
+	<cstdlib>
+
+1556913495 source:c:\users\luis\desktop\github\graficas\funciones_lista.cpp
+	<iostream>
+	<cstdlib>
+	"Clases.cpp"
+
+1556913505 source:c:\users\luis\desktop\github\graficas\funciones_lista_arcos.cpp
+	<iostream>
+	<cstdlib>
+	"Clases.cpp"
+
+1557959025 source:c:\users\luis\desktop\github\graficas\funciones_lista_nodos.cpp
+	<iostream>
+	<cstdlib>
+	"Clases.cpp"
+
+1557959313 source:c:\users\luis\desktop\github\graficas\main.cpp
+	<iostream>
+	<cstdlib>
+	"Clases.cpp"
+
+1557959313 source:c:\users\luis\desktop\github\graficas\clases.cpp
+	<iostream>
+	<cstdlib>
+

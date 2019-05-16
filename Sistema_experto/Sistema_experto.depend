@@ -1,0 +1,269 @@
+# depslib dependency file v1.0
+1557384076 source:c:\users\luis\desktop\sistemaexperto\sistema_experto\funciones_experto.cpp
+	<iostream>
+	<cstdlib>
+	"experto.h"
+
+1557381815 source:c:\users\luis\desktop\sistemaexperto\sistema_experto\funciones_lista.cpp
+	<iostream>
+	<cstdlib>
+	"lista.h"
+
+1557381466 source:c:\users\luis\desktop\sistemaexperto\sistema_experto\funciones_lista_arcos.cpp
+	<iostream>
+	<cstdlib>
+	"lista_nodos.h"
+	"lista_arcos.h"
+
+1557381929 source:c:\users\luis\desktop\sistemaexperto\sistema_experto\main.cpp
+	<iostream>
+	<cstdlib>
+	"lista_nodos.h"
+	"lista_arcos.h"
+	"experto.h"
+	"lista.h"
+
+1557209847 source:c:\users\luis\desktop\sistemaexperto\sistema_experto\clases.cpp
+	<iostream>
+	<cstdlib>
+
+1557384317 source:c:\users\luis\desktop\sistemaexperto\sistema_experto\funciones_lista_nodos.cpp
+	<iostream>
+	<cstdlib>
+	"lista_nodos.h"
+
+1557209847 c:\users\luis\desktop\sistemaexperto\sistema_experto\clases.cpp
+	<iostream>
+	<cstdlib>
+
+1557258597 source:h:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\clases.cpp
+	<iostream>
+	<cstdlib>
+
+1557346978 source:h:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\funciones_experto.cpp
+	<iostream>
+	<cstdlib>
+	"experto.h"
+
+1557305728 source:h:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\funciones_lista.cpp
+	<iostream>
+	<cstdlib>
+	"lista.h"
+
+1557259015 h:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\clases.cpp
+	<iostream>
+	<cstdlib>
+
+1557293853 source:h:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\funciones_lista_arcos.cpp
+	<iostream>
+	<cstdlib>
+	"lista_nodos.h"
+	"lista_arcos.h"
+
+1557347153 source:h:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\funciones_lista_nodos.cpp
+	<iostream>
+	<cstdlib>
+	"lista_nodos.h"
+
+1557345602 source:h:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\main.cpp
+	<iostream>
+	<cstdlib>
+	"lista_nodos.h"
+	"lista_arcos.h"
+	"experto.h"
+	"lista.h"
+
+1557381815 source:e:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\funciones_lista.cpp
+	<iostream>
+	<cstdlib>
+	"lista.h"
+
+1557263661 e:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\clases.cpp
+	<iostream>
+	<cstdlib>
+
+1557381466 source:e:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\funciones_lista_arcos.cpp
+	<iostream>
+	<cstdlib>
+	"lista_nodos.h"
+	"lista_arcos.h"
+
+1557429066 source:e:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\funciones_lista_nodos.cpp
+	<iostream>
+	<cstdlib>
+	"lista_nodos.h"
+
+1557429379 source:e:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\main.cpp
+	<iostream>
+	<cstdlib>
+	"lista_nodos.h"
+	"lista_arcos.h"
+	"experto.h"
+	"lista.h"
+
+1557263661 source:e:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\clases.cpp
+	<iostream>
+	<cstdlib>
+
+1557429480 source:e:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\funciones_experto.cpp
+	<iostream>
+	<cstdlib>
+	"experto.h"
+
+1557429379 source:d:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\main.cpp
+	<iostream>
+	<cstdlib>
+	"lista_nodos.h"
+	"lista_arcos.h"
+	"experto.h"
+	"lista.h"
+
+1557277314 d:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\clases.cpp
+	<iostream>
+	<cstdlib>
+
+1557277314 source:d:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\clases.cpp
+	<iostream>
+	<cstdlib>
+
+1557818164 source:d:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\funciones_experto.cpp
+	<iostream>
+	<cstdlib>
+	"experto.h"
+
+1557429472 d:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\experto.h
+	"lista_nodos.h"
+	"lista.h"
+	"lista_arcos.h"
+
+1557384441 d:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\lista_nodos.h
+	"lista_arcos.h"
+
+1557384568 d:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\lista_arcos.h
+	"lista.h"
+
+1557384484 d:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\lista.h
+	"lista_arcos.h"
+	"lista_nodos.h"
+
+1557277778 d:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\estructuras.h
+	"lista_arcos.h"
+	"lista_nodos.h"
+	"lista.h"
+
+1557277314 source:c:\users\luis\desktop\sistemaexperto1\sistema_experto\clases.cpp
+	<iostream>
+	<cstdlib>
+
+1557383253 source:c:\users\luis\desktop\sistemaexperto1\sistema_experto\funciones_experto.cpp
+	<iostream>
+	<cstdlib>
+	"experto.h"
+
+1557383378 c:\users\luis\desktop\sistemaexperto1\sistema_experto\experto.h
+	"lista_nodos.h"
+	"lista.h"
+	"lista_arcos.h"
+
+1557357421 c:\users\luis\desktop\sistemaexperto1\sistema_experto\lista_nodos.h
+	"lista_arcos.h"
+
+1557381506 c:\users\luis\desktop\sistemaexperto1\sistema_experto\lista_arcos.h
+	"lista.h"
+
+1557305728 c:\users\luis\desktop\sistemaexperto1\sistema_experto\lista.h
+	"lista_arcos.h"
+	"lista_nodos.h"
+
+1557278303 c:\users\luis\desktop\sistemaexperto1\sistema_experto\estructuras.h
+	"lista_arcos.h"
+
+1557381929 source:c:\users\luis\desktop\sistemaexperto1\sistema_experto\main.cpp
+	<iostream>
+	<cstdlib>
+	"lista_nodos.h"
+	"lista_arcos.h"
+	"experto.h"
+	"lista.h"
+
+1557277314 c:\users\luis\desktop\sistemaexperto1\sistema_experto\clases.cpp
+	<iostream>
+	<cstdlib>
+
+1557381505 source:c:\users\luis\desktop\sistemaexperto1\sistema_experto\funciones_lista_nodos.cpp
+	<iostream>
+	<cstdlib>
+	"lista_nodos.h"
+
+1557381815 source:c:\users\luis\desktop\sistemaexperto1\sistema_experto\funciones_lista.cpp
+	<iostream>
+	<cstdlib>
+	"lista.h"
+
+1557384213 c:\users\luis\desktop\sistemaexperto\sistema_experto\experto.h
+	"lista_nodos.h"
+	"lista.h"
+	"lista_arcos.h"
+
+1557384441 c:\users\luis\desktop\sistemaexperto\sistema_experto\lista_nodos.h
+	"lista_arcos.h"
+
+1557384568 c:\users\luis\desktop\sistemaexperto\sistema_experto\lista_arcos.h
+	"lista.h"
+
+1557384484 c:\users\luis\desktop\sistemaexperto\sistema_experto\lista.h
+	"lista_arcos.h"
+	"lista_nodos.h"
+
+1557384484 e:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\lista.h
+	"lista_arcos.h"
+	"lista_nodos.h"
+
+1557384568 e:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\lista_arcos.h
+	"lista.h"
+
+1557384441 e:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\lista_nodos.h
+	"lista_arcos.h"
+
+1557429472 e:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\experto.h
+	"lista_nodos.h"
+	"lista.h"
+	"lista_arcos.h"
+
+1557305728 h:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\lista.h
+	"lista_arcos.h"
+	"lista_nodos.h"
+
+1557288617 h:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\lista_arcos.h
+	"lista.h"
+
+1557346978 h:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\lista_nodos.h
+	"lista_arcos.h"
+
+1557346498 h:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\experto.h
+	"lista_nodos.h"
+	"lista.h"
+	"lista_arcos.h"
+
+1557381466 source:c:\users\luis\desktop\sistemaexperto1\sistema_experto\funciones_lista_arcos.cpp
+	<iostream>
+	<cstdlib>
+	"lista_nodos.h"
+	"lista_arcos.h"
+
+1557381815 source:d:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\funciones_lista.cpp
+	<iostream>
+	<cstdlib>
+	"lista.h"
+
+1557381466 source:d:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\funciones_lista_arcos.cpp
+	<iostream>
+	<cstdlib>
+	"lista_nodos.h"
+	"lista_arcos.h"
+
+1557429066 source:d:\estructura de datos\trabajos\programas\examen 3\sistemaexperto\sistema_experto\funciones_lista_nodos.cpp
+	<iostream>
+	<cstdlib>
+	"lista_nodos.h"
+
