@@ -4,9 +4,9 @@
 using namespace std;
 
 
-////////////////////////////
+//------------------------------------------------------------------
 struct caja2;                   //Estructura de los nodos
-////////////////////////////
+//-------------------------------------------------------------------
 struct caja1{                   //Estructura de los arcos
     int numNodo;
     float longitud;
@@ -14,18 +14,18 @@ struct caja1{                   //Estructura de los arcos
     caja2 *direccion_nodo;
 
 };
-////////////////////////////
+//-------------------------------------------------------------------------
 struct caja3{                   //Estructura de los nodos auxiliares
     caja2 *direccion_nodo;
     float longitud;
 
     caja3 *siguiente, *anterior;
 };
-////////////////////////////
+//---------------------------------------------------------------------------
 
 
 
-/////////////////////////////////////////////////////
+//-------------------------------------------------------------------------------
 class lista_arcos{
     caja1 *principio, *anterior, *siguiente, *Lugaragregado;
 
@@ -44,10 +44,8 @@ class lista_arcos{
     caja1* lugar_agregado();
     caja1* Principio();
 };
-/////////////////////////////////////////////////////
+//------------------------------------------------------------------------------
 
-
-//////////////////////////////////
 struct caja2{                                   //Estructua de los nodos
     int numNodo, bandera;
     float ruta_corta;
@@ -56,10 +54,8 @@ struct caja2{                                   //Estructua de los nodos
     caja2 *anterior, *siguiente, *antecesor;
     caja3 *direccion;
 };
-//////////////////////////////////
+//---------------------------------------------------------------------------------
 
-
-//////////////////////////////////
 class lista_nodos{
     caja2 *principio, *anterior, *Lugaragregado;
 
@@ -76,7 +72,7 @@ class lista_nodos{
     void pintar();
     caja2* lugar_agregado();
 };
-/////////////////////////////////////////////////////
+//--------------------------------------------------------------------
 class lista{                                            //Lista de los nodos auxiliares
 
     caja3 *principio, *anterior, *Final, *Lugaragregado;
@@ -90,14 +86,14 @@ class lista{                                            //Lista de los nodos aux
     lista();
     ~lista();
     void buscar(float a);
-    int agregar( caja2 *p, float a);
+    int agregar( caja2 *q, float a);
     void pintar();
     caja2* sacar();
     void ajustar(caja3 *q, float a);
     void limpiar();
     caja3* lugaragregado();
 };
-/////////////////////////////////////////////////////
+//-------------------------------------------------------------------------------
 class grafica{
 
     lista_nodos A;
@@ -112,4 +108,4 @@ class grafica{
     void pintar();                              //Funcion que pinta la gráfica
     void pintar_ruta(int I, int F);             //Funcion que pinta la gráfica y el camino encontrado por Dikstra
 };
-//////////////////////////////////////////////////////
+//--------------------------------------------------------------------------------

@@ -8,7 +8,7 @@ using namespace std;
 //   Lista Nodos
 //////////////////////////
 
-////////////////////////////
+//-------------------------------------------
 lista_nodos::lista_nodos(){
     principio = NULL;
     anterior = NULL;
@@ -17,7 +17,7 @@ lista_nodos::lista_nodos(){
     donde = VACIO;
     cuantos = 0;
 }
-////////////////////////////
+//------------------------------------------
 lista_nodos::~lista_nodos(){
 
     caja2 *p;
@@ -34,7 +34,7 @@ lista_nodos::~lista_nodos(){
     donde = VACIO;
     cuantos = 0;
 }
-//////////////////////////////////////////////////////
+//--------------------------------------------
 void lista_nodos::buscar(int a){
 
     caja2 *p;
@@ -79,7 +79,7 @@ void lista_nodos::buscar(int a){
     encontrado = NO;
     donde = FINAL;
 }
-////////////////////////////////////////////////////
+//-------------------------------------------------------
 int lista_nodos::agregar(int a){
 
     caja2 *p;
@@ -111,7 +111,7 @@ int lista_nodos::agregar(int a){
     cuantos++;
     return 1;
 }
-//////////////////////////////////////////////////////
+//--------------------------------------------------------
 int lista_nodos::borrar(int a){
 
     caja2 *p;
@@ -133,7 +133,7 @@ int lista_nodos::borrar(int a){
     cuantos--;
     return 1;
 }
-////////////////////////////////////////////////////
+//--------------------------------------------------------------------
 void lista_nodos::pintar(){
 
     caja2 *p;
@@ -149,8 +149,8 @@ void lista_nodos::pintar(){
         cout << endl << endl << endl;
     }
 }
-/////////////////////////////////////////////////////
+//----------------------------------------------------------------
 caja2* lista_nodos::lugar_agregado(){
     return Lugaragregado;
 }
-/////////////////////////////////////////////////////
+//---------------------------------------------------------------------

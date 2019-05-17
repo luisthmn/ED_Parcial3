@@ -8,16 +8,17 @@ using namespace std;
 //   GRAFICA
 //////////////////////////
 
-////////////////////////////
+//-----------------------------------
 grafica::grafica(){
     existe_ruta = false;
 }
-////////////////////////////
+//-----------------------------------------
 grafica::~grafica(){
     A.~lista_nodos();
+    B.~lista();
     existe_ruta = false;
 }
-////////////////////////////
+//--------------------------------------
 void grafica::agregarArco(int a, int b, float l){
 
     caja1 *p;
@@ -39,11 +40,11 @@ void grafica::agregarArco(int a, int b, float l){
     ((q->entrantes).lugar_agregado())->longitud = l;
 
 }
-//////////////////////////////
+//-------------------------------------------------------------
 void grafica::pintar(){
     A.pintar();
 }
-/////////////////////////////////
+//----------------------------------------------------------
 void grafica::ruta_mas_corta(int a, int b){
 
     caja2 *p;
@@ -84,7 +85,7 @@ void grafica::ruta_mas_corta(int a, int b){
     }
 }
 
-/////////////////////////////////
+//-----------------------------------------------------------------------
 void grafica::pintar_ruta(int I, int F){
     A.pintar();
     cout << "\n\n\n";
@@ -97,4 +98,4 @@ void grafica::pintar_ruta(int I, int F){
         cout << endl << endl;
     }
 }
-/////////////////////////////////
+//--------------------------------------------------------------------------

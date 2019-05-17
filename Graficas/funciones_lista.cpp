@@ -8,7 +8,7 @@ using namespace std;
 //   LISTA
 //////////////////////////
 
-/////////////////////////////
+//------------------------------------------------
 lista::lista(){
     principio = NULL;
     Final = NULL;
@@ -18,7 +18,7 @@ lista::lista(){
     cuantos = 0;
     donde = VACIO;
 }
-////////////////////////////
+//---------------------------------------------------
 lista::~lista(){
     caja3 *p;
 
@@ -36,7 +36,7 @@ lista::~lista(){
     donde = VACIO;
     cuantos = 0;
 }
-////////////////////////////
+//------------------------------------------------------
 void lista::buscar(float a){
 
     caja3 *p;
@@ -87,49 +87,47 @@ void lista::buscar(float a){
     donde = FINAL;
 
 }
-////////////////////////////
-int lista::agregar(caja2 *p, float a){
+//---------------------------------------------------------------
+int lista::agregar(caja2 *q, float a){
 
-    caja3 *nodo_aux;
+    caja3 *p;
     buscar(a);
+    if(encontrado == SI) return 0;
 
-    nodo_aux = new caja3;
+    p = new caja3;
+    p ->direccion_nodo = q;
+    p ->direccion_nodo ->ruta_corta = a;
 
    if(donde == VACIO){
-        principio = nodo_aux;
-        nodo_aux ->siguiente = NULL;
-        nodo_aux ->anterior = NULL;
-        nodo_aux ->direccion_nodo = p;
-        Final = nodo_aux;
+        principio = p;
+        p ->siguiente = NULL;
+        p ->anterior = NULL;
+        Final = p;
     }
     else if(donde == PRINCIPIO){
-        nodo_aux ->siguiente = principio;
-        nodo_aux ->anterior = NULL;
-        (nodo_aux ->siguiente) ->anterior = nodo_aux;
-        principio = nodo_aux;
-        nodo_aux ->direccion_nodo = p;
+        p ->siguiente = principio;
+        p ->anterior = NULL;
+        (p ->siguiente) ->anterior = p;
+        principio = p;
     }
     else if(donde == FINAL){
-        nodo_aux ->siguiente = NULL;
-        nodo_aux ->anterior = Final;
-        Final = nodo_aux;
-        anterior ->siguiente = nodo_aux;
-        nodo_aux ->direccion_nodo = p;
+        p ->siguiente = NULL;
+        p ->anterior = Final;
+        Final = p;
+        anterior ->siguiente = p;
     }
     else{
-        nodo_aux ->siguiente = anterior ->siguiente;
-        nodo_aux ->anterior = anterior;
-        (nodo_aux ->siguiente) ->anterior = nodo_aux;
-        anterior ->siguiente = nodo_aux;
-        nodo_aux ->direccion_nodo = p;
+        p ->siguiente = anterior ->siguiente;
+        p ->anterior = anterior;
+        (p ->siguiente) ->anterior = p;
+        anterior ->siguiente = p;
     }
 
-    nodo_aux ->direccion_nodo ->ruta_corta = a;
-    Lugaragregado = nodo_aux;
+    Lugaragregado = p;
     cuantos++;
     return 1;
 }
-//////////////////////////////
+//-------------------------------------------------------------
 void lista::pintar(){
     caja3 *p;
 
@@ -142,7 +140,7 @@ void lista::pintar(){
     }
     cout << "\nLongitud: " << Final -> direccion_nodo->ruta_corta << "\n\n";
 }
-//////////////////////////////
+//-----------------------------------------------------------------
 caja2* lista::sacar(){
     caja2 *p;
     caja3 *q;
@@ -150,21 +148,18 @@ caja2* lista::sacar(){
     p = NULL;
     q = principio;
 
-    if(principio == NULL){
-        return p;
-    }
-    else{
-        p = q ->direccion_nodo;
-        principio = q -> siguiente;
-        if(principio != NULL){
-            principio ->anterior = NULL;
-        }
-    }
+    if(principio == NULL) return p;
+
+    p = q ->direccion_nodo;
+    principio = q -> siguiente;
+
+    if(principio != NULL) principio ->anterior = NULL;
+
     delete q;
     --cuantos;
     return p;
 }
-//////////////////////////////
+//-------------------------------------------------------------------
 void lista::ajustar(caja3 *q, float a){
     caja3 *p;
 
@@ -197,7 +192,7 @@ void lista::ajustar(caja3 *q, float a){
         }
     }
 }
-///////////////////////////////
+//---------------------------------------------------------------------
 void lista::limpiar(){
   caja3 *p;
 
@@ -215,8 +210,8 @@ void lista::limpiar(){
   donde = VACIO;
   cuantos = 0;
 }
-/////////////////////////////////
+//------------------------------------------------------
 caja3* lista::lugaragregado(){
     return Lugaragregado;
 }
-/////////////////////////////////
+//--------------------------------------------------------
