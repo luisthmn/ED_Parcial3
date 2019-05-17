@@ -7,12 +7,12 @@ using namespace std;
 //En este archivo se encuentra la clase de la lista auxiliar junto con la estructura de nodos auxiliares
 
 struct caja2;
-/////////////////////////////////////////////////////////////////
+//------------------------------------------------------------------------
 struct caja3{                   //Estructura para los nodos auxiliares
     caja2 *direccion_nodo;
     caja3 *siguiente, *anterior;
 };
-////////////////////////////////////////
+//--------------------------------------------------------------------------
 class lista{                    //Clase de la lista auxiliar
     caja3 *principio, *anterior, *Final, *lugaragregado;
 
@@ -32,6 +32,6 @@ class lista{                    //Clase de la lista auxiliar
     caja3 *lugar_agregado();
     caja3* Principio();
 };
-////////////////////////////////////////////////////////
+//-------------------------------------------------------------------------
 
 #endif // LISTA_H_INCLUDED

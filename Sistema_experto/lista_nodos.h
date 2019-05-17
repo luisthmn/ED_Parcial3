@@ -7,7 +7,7 @@ using namespace std;
 //y la estructura para los nodos del sistema
 //experto
 
-///////////////////////////////////////////////////////////////////
+//----------------------------------------------------------------------------
 struct caja2{ //Nodos (preguntas, clausulas intermedias, conclusiones)
     int numNodo;  //Numero de nodo
     int bandera;  //(0)Pregunta  (1)Conclusión   (2)Clausula intermedia
@@ -20,7 +20,7 @@ struct caja2{ //Nodos (preguntas, clausulas intermedias, conclusiones)
     lista_arcos salientes;
     caja2 *siguiente;
 };
-/////////////////////////////////////////////////////
+//-----------------------------------------------------------------------------
 class lista_nodos{
     caja2 *principio, *anterior, *lugaragregado;
 
@@ -45,7 +45,7 @@ class lista_nodos{
     caja2* Principio();
     caja2* lugar_agregado();
 };
-////////////////////////////////////////////////////////
+//--------------------------------------------------------------------------------
 
 
 

@@ -8,7 +8,7 @@ using namespace std;
 
 //En este archivo se encuentra la clase del sistema experto
 
-/////////////////////////////////////////////////
+//------------------------------------------------------------------------------
 class experto{
     lista_nodos A;  //Lista de nodos
     lista B;        //Lista auxiliar para los salientes de las preguntas y clausulas
@@ -24,5 +24,5 @@ class experto{
     void agregarClausula(int numNodo, int tipoConectivo, string texto);
     void agregarArco(int a, int b, bool cambiaValor);   //Agregar arco entre dos nodos
 };
-/////////////////////////////////////////////////////////
+//---------------------------------------------------------------------------
 #endif // EXPERTO_H_INCLUDED

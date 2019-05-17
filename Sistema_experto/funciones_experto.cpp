@@ -36,7 +36,6 @@ void experto::cambiarSalientes(caja2 *p){ //Manejar y editar los salientes de p 
                 else{
                     if((q->direccion_nodo)->valorVerdad != FALSO){
                         B.agregar(q->direccion_nodo);
-                     //   cout << endl << "NODO " << q->direccion_nodo->numNodo << " ANADIDO A LA LISTA" << endl << endl;
                     }
                     (q->direccion_nodo)->valorVerdad = FALSO;
                 }
@@ -45,7 +44,6 @@ void experto::cambiarSalientes(caja2 *p){ //Manejar y editar los salientes de p 
                 if(q->cambiaValor == false){
                     if((q->direccion_nodo)->valorVerdad != VERDADERO){
                         B.agregar(q->direccion_nodo);
-                     //   cout << endl << "NODO " << q->direccion_nodo->numNodo << " ANADIDO A LA LISTA" << endl << endl;
                     }
                     (q->direccion_nodo)->valorVerdad = VERDADERO;
                 }
@@ -60,7 +58,6 @@ void experto::cambiarSalientes(caja2 *p){ //Manejar y editar los salientes de p 
                 if(q->cambiaValor == OR){
                     if((q->direccion_nodo)->valorVerdad != FALSO){
                         B.agregar(q->direccion_nodo);
-                     //   cout << endl << "NODO " << q->direccion_nodo->numNodo << " ANADIDO A LA LISTA" << endl << endl;
                     }
                     (q->direccion_nodo)->valorVerdad = FALSO;
                 }
@@ -75,7 +72,6 @@ void experto::cambiarSalientes(caja2 *p){ //Manejar y editar los salientes de p 
                 else{
                     if((q->direccion_nodo)->valorVerdad != VERDADERO){
                         B.agregar(q->direccion_nodo);
-                       // cout << endl << "NODO " << q->direccion_nodo->numNodo << " ANADIDO A LA LISTA" << endl << endl;
                     }
                     (q->direccion_nodo)->valorVerdad = VERDADERO;
                 }
@@ -85,14 +81,12 @@ void experto::cambiarSalientes(caja2 *p){ //Manejar y editar los salientes de p 
             if((q->direccion_nodo)->conectivo == AND){
                 if((q->direccion_nodo)->valorVerdad != VERDADERO){
                         B.agregar(q->direccion_nodo);
-                      //  cout << endl << "NODO " << q->direccion_nodo->numNodo << " ANADIDO A LA LISTA" << endl << endl;
                 }
                 (q->direccion_nodo)->valorVerdad = VERDADERO;
             }
             else{
                 if((q->direccion_nodo)->valorVerdad != FALSO){
                         B.agregar(q->direccion_nodo);
-                     //   cout << endl << "NODO " << q->direccion_nodo->numNodo << " ANADIDO A LA LISTA" << endl << endl;
                 }
                 (q->direccion_nodo)->valorVerdad = FALSO;
             }
@@ -115,8 +109,7 @@ caja2* experto::obtenerPregunta(){         //Función que revisa todos los nodos
         q = p->salientes.Principio();
         if(p->valorVerdad == -1){
             while(q){
-                if((q->direccion_nodo)->valorVerdad == -1)
-                    return p;
+                if((q->direccion_nodo)->valorVerdad == -1) return p;
                 q = q->siguiente;
             }
         }
@@ -134,20 +127,15 @@ void experto::sistema_experto(){        //FUNCION PRINCIPAL QUE CORRE EL SISTEMA
     while(p){
         p = obtenerPregunta();                                          //Obtenemos una pregunta no redundante
 
-
         if(obtenerPregunta()){                //Si la pregunta no es redundante
             A.pintar(p);                                                //Escribimos la pregunta
             cin >> p->valorVerdad;                                       //Recibimos su respuesta
-         //   cout << endl << "La pregunta " << p->numNodo << " ahora tiene valor de verdad " << p->valorVerdad;
         }
-
-
        q = p;
        if(q->valorVerdad!=-1 && q->valorVerdad!=-2){            //Si la pregunta tiene valor de verdad
            while(q){                                            //Manejamos sus salientes
                 cambiarSalientes(q);
                 q = B.sacar();
-            //    if(q) cout << endl << "NODO " <<q->numNodo << " SACADO A LA LISTA" << endl << endl;
            }
         }
         p = A.Principio();                                      //Volvemos al primer nodo para buscar otra pregunta viable para hacer

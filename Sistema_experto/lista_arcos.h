@@ -6,13 +6,13 @@
 using namespace std;
 
 struct caja2;
-///////////////////////////////////////////////////
+//--------------------------------------------------------------------
 struct caja1{               //Estructuras de los arcos
    bool cambiaValor;        //Para ver si se tiene que cambiar el valor de verdad en ese arco
    caja1 *siguiente;
    caja2 *direccion_nodo;
 };
-/////////////////////////////////////////
+//------------------------------------------------------------------------
 class lista_arcos{
 
     caja1 *principio, *anterior, *siguiente, *lugaragregado;
@@ -34,6 +34,6 @@ class lista_arcos{
     caja1* Principio();
 
 };
-//////////////////////////////////////////////////////
+//-------------------------------------------------------------------------------
 
 #endif // LISTA_ARCOS_H_INCLUDED

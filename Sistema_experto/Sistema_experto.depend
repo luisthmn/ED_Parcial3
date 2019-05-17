@@ -267,3 +267,42 @@
 	<cstdlib>
 	"lista_nodos.h"
 
+1557381815 source:c:\users\luis\desktop\git_hub\github_ed_parcial3\sistema_experto\funciones_lista.cpp
+	<iostream>
+	<cstdlib>
+	"lista.h"
+
+1558077269 c:\users\luis\desktop\git_hub\github_ed_parcial3\sistema_experto\lista.h
+	"lista_arcos.h"
+	"lista_nodos.h"
+
+1558077269 c:\users\luis\desktop\git_hub\github_ed_parcial3\sistema_experto\lista_arcos.h
+	"lista.h"
+
+1558077269 c:\users\luis\desktop\git_hub\github_ed_parcial3\sistema_experto\lista_nodos.h
+	"lista_arcos.h"
+
+1557963293 source:c:\users\luis\desktop\git_hub\github_ed_parcial3\sistema_experto\funciones_lista_arcos.cpp
+	<iostream>
+	<cstdlib>
+	"lista_nodos.h"
+	"lista_arcos.h"
+
+1557963114 source:c:\users\luis\desktop\git_hub\github_ed_parcial3\sistema_experto\funciones_lista_nodos.cpp
+	<iostream>
+	<cstdlib>
+	"lista_nodos.h"
+
+1557818231 source:c:\users\luis\desktop\git_hub\github_ed_parcial3\sistema_experto\main.cpp
+	<iostream>
+	<cstdlib>
+	"lista_nodos.h"
+	"lista_arcos.h"
+	"experto.h"
+	"lista.h"
+
+1558077194 c:\users\luis\desktop\git_hub\github_ed_parcial3\sistema_experto\experto.h
+	"lista_nodos.h"
+	"lista.h"
+	"lista_arcos.h"
+
